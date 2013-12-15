@@ -180,6 +180,7 @@ section.section:nth-child(3n+3){background-color:#3a3e4a}
 .alert{margin-top:30px;padding:20px;border:4px dashed #3a3e4a}
 .alert h3{font-size:120%;letter-spacing:.2em}
 .alert .btn{padding:.5em 1em;letter-spacing:0;font-size:100%}
+.author{padding-left: 1em}
 @media (min-width:768px) and (max-width:1040px){
 	.content{width:724px}
 	#globalheader h1{font-size:280%}
