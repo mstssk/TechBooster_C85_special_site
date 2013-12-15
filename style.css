@@ -93,6 +93,8 @@ section.section:nth-child(3n+3){background-color:#3a3e4a}
 .section:nth-child(3n+1)#staff .website a{border-color:#fff}
 .section:nth-child(3n+1)#staff .website a:hover{background:#fff;color:#e86779}
 .section:nth-child(3n+2) .table th,.section:nth-child(3n+2) .table td{border-bottom:1px solid rgba(0,0,0,.15)}
+.section:nth-child(3n+2) a{color:#3a3e4a}
+.section:nth-child(3n+2) a:hover{color:rgba(58,62,74,.7)}
 .section:nth-child(3n+3) .title{color:#fff}
 .section:nth-child(3n+3) .list .meta{color:rgba(255,255,255)}
 .section:nth-child(3n+3)#staff .website a{border-color:#fff}
