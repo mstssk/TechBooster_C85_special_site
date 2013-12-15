@@ -112,6 +112,7 @@ section.section:nth-child(3n+3){background-color:#3a3e4a}
 .spec .jacket-noimage{height:298px;width:298px;line-height:298px;letter-spacing:.3em;border:1px solid #fff;border:1px solid rgba(255,255,255,.5);margin-right:auto;margin-left:auto}
 .spec .table{width:560px}
 .spec .table ul{list-style-type:none}
+.spec .spec_header{font-size:80%;font-weight:bold;}
 .table th,.table td{padding:15px 8px;text-align:left;border-bottom:1px solid rgba(255,255,255,.15)}
 .table th{font-size:80%;min-width:60px}
 .table ul{padding-left:1em}
