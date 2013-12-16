@@ -47,12 +47,6 @@
     })();
   </script>
 
-  <style>
-    <!--
-      custom css
-    -->
-  </style>
-
 <!-- TWITTER TAGS -->
 <meta name="twitter:site" content="TechBooster" />
 <meta name="twitter:card" content="summary" />
@@ -69,16 +63,13 @@
         <nav class="header-nav">
           <ul>
               <li>
-                <a href="#magicbook">Magic</a>
+                <a href="#books">Books</a>
               </li>
               <li>
-                <a href="#foxtory">FireFox OS</a>
+                <a href="#special">Special</a>
               </li>
               <li>
-                <a href="#review">ReVIEW</a>
-              </li>
-              <li>
-                <a href="#kitkat">KitKat</a>
+                <a href="#about">About</a>
               </li>
           </ul>
         </nav>
@@ -207,12 +198,12 @@
         </table>
         
         <div class="alert">
-          <h3 style="text-transform: none;">【裏表紙 特別企画】 週刊Android&nbsp;Cupcake特集号</h3>
+          <h3 style="text-transform: none;">【特別企画】 週刊Android Cupcake特集号</h3>
           <p style="margin-bottom: 10px">
-            ついにAndroid 1.5搭載ケータイが日本上陸！？「週刊Android Cupcake特集号」
-            <br>（ジョーク企画ですが本当に裏から読めるようにしています）
+            裏表紙もMagic？<br>
+            1冊で何倍もおいしいAndroid MagicBook特別企画
           </p>
-          <a href="" target="_blank" class="btn btn-info">特別企画について</a>
+          <a href="#special" class="btn btn-info">特別企画について</a>
         </div>
 
       </div>
@@ -432,6 +423,52 @@
       </div>
     </section>
 
+    <section id="special" class="special section">
+      <div class="content">
+        <h3>特別企画</h3>
+        <ol class="list">
+            <li>
+              <span class="number">01</span>
+              <span class="title">週刊Android Cupcake特集号</span>
+              <span class="meta">Android MagicBook 特別裏表紙</span>
+              <div class="jacket-image">
+                <img src="./images/cover_weekly.jpg" alt="週刊Android Cupcake特集号" title="週刊Android Cupcake特集号">
+              </div>
+              <p>
+                日本初のAndroid搭載スマートフォン「HT-03A」が発売間近！<br>
+                Android 1.5 Cupcakeを徹底解剖します！<br>
+                （ジョーク企画ですが、本当に裏から読めるようにしています。）
+              </p>
+            </li>
+            <li>
+              <span class="number">02</span>
+              <span class="title">平成25年対応（かもしれない）リーマンAndroid開発者向け確定申告に関する何か</span>
+              <span class="meta">Android MagicBook 第10章に掲載</span>
+              <p>
+                確定申告の季節ですね。<br>
+                副収入があったりなかったりするAndroiderのための、確定申告の参考になったりならなかったりする特別記事です。<br>
+                ※本章の内容は無保証です。
+              </p>
+            </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="about" class="spec section">
+      <div class="content">
+        <h3 style="text-transform: none;">TechBoosterとは</h3>
+        <div class="tb_bg">
+          <a href="http://techbooster.org/">
+            <img style="width:300px;" src="http://techbooster.org/logo.png" alt="TechBooster" title="TechBooster">
+          </a>
+        </div>
+        <p class="small">
+            TechBoosterはAndroidのTipsやSDKの情報を取り扱う、システム開発情報サイトです。<br>
+            技術者向けイベントへの出展や、コミックマーケットにて技術誌の頒布なども行なっています。
+        </p>
+      </div>
+    </section>
+
   </div>
 
   <!-- END Index -->
@@ -466,6 +503,19 @@
       load('//b.st-hatena.com/js/bookmark_button.js');
       load('//platform.twitter.com/widgets.js', 'tweetjs');
     }(document, 'script'));
+
+    // scroll animation
+    $(function(){
+      var history = window.history;
+      $("a[href^=#]").click(function(){
+        var offset = $(this.hash).offset().top;
+        $("html,body").animate({scrollTop: offset}, 500);
+        if(history){
+          history.pushState(null, null, this.hash);
+        }
+        return false;
+      });
+    });
   </script>
 </body>
 </html>
