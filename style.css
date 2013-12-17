@@ -150,39 +150,6 @@ section.section:nth-child(3n+3){background-color:#3a3e4a}
 .entry-content h3{font-size:1.17em;margin:1em 0;letter-spacing:0}
 #tumblr_controls,#tumblr_teaser_follow{display:none!important}
 .tumblr_mobile_banner{position:static!important}
-.green a{color:#59b799}
-.green a:hover{color:#44977c}
-.green #globalheader h1 a{color:#59b799}
-.green section.section:nth-child(3n+1){background-color:#59b799}
-.green .section:nth-child(3n+1)#staff .website a:hover,.green .section:nth-child(3n+3)#staff .website a:hover{color:#59b799}
-.green .section:nth-child(3n+3) .btn{background-color:#59b799}
-.green .section:nth-child(3n+3) .btn:hover{background-color:#44977c}
-.green .available-dropdown li a{color:#59b799!important}
-.green .list .number,.green .list .role{color:#59b799}
-.green #staff .website a{border:1px solid #59b799}
-.green #staff .website a:hover{color:#fff;background-color:#59b799}
-.blue a{color:#509dc5}
-.blue a:hover{color:#3d80a3}
-.blue #globalheader h1 a{color:#509dc5}
-.blue section.section:nth-child(3n+1){background-color:#509dc5}
-.blue .section:nth-child(3n+1)#staff .website a:hover,.blue .section:nth-child(3n+3)#staff .website a:hover{color:#509dc5}
-.blue .section:nth-child(3n+3) .btn{background-color:#509dc5}
-.blue .section:nth-child(3n+3) .btn:hover{background-color:#3d80a3}
-.blue .available-dropdown li a{color:#509dc5!important}
-.blue .list .number,.blue .list .role{color:#509dc5}
-.blue #staff .website a{border:1px solid #509dc5}
-.blue #staff .website a:hover{color:#fff;background-color:#509dc5}
-.gray a{color:#768791}
-.gray a:hover{color:#586770}
-.gray #globalheader h1 a{color:#509dc5}
-.gray section.section:nth-child(3n+1){background-color:#768791}
-.gray .section:nth-child(3n+1)#staff .website a:hover,.gray .section:nth-child(3n+3)#staff .website a:hover{color:#768791}
-.gray .section:nth-child(3n+3) .btn{background-color:#768791}
-.gray .section:nth-child(3n+3) .btn:hover{background-color:#586770}
-.gray .available-dropdown li a{color:#768791!important}
-.gray .list .number,.gray .list .role{color:#768791}
-.gray #staff .website a{border:1px solid #768791}
-.gray #staff .website a:hover{color:#fff;background-color:#768791}
 .alert{margin-top:30px;padding:20px;border:4px dashed #3a3e4a}
 .alert h3{font-size:120%;letter-spacing:.2em}
 .alert .btn{padding:.5em 1em;letter-spacing:0;font-size:100%}
