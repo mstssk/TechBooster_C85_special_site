@@ -49,9 +49,9 @@ button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
 textarea{overflow:auto;vertical-align:top}
 table{border-collapse:collapse;border-spacing:0}
 
-/* ==========================
-    ここから下は独自
-   ==========================*/
+/* ==========
+   customized
+   ==========*/
 .small{font-size:75%}
 .clear{clear:both}
 .clearfix{display:block;*zoom:1}
@@ -189,6 +189,7 @@ section.section:nth-child(3n+3){background-color:#3a3e4a}
 .author{padding-left: 1em}
 .tb_bg{padding-top:5px;max-width:320px;margin:0 auto;background:url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAICAgICAgICAgICAgICAwQDAgIDBAUEBAQEBAUGBQUFBQUFBgYHBwgHBwYJCQoKCQkMDAwMDAwMDAwMDAwMDAz/2wBDAQMDAwUEBQkGBgkNCwkLDQ8ODg4ODw8MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCABWAFUDAREAAhEBAxEB/8QAGQAAAwEBAQAAAAAAAAAAAAAAAQIDAAQJ/8QALhAAAgEEAAYBAgQHAAAAAAAAAQIRABIhMQMiMkFRYUITcVKBkbEjYmOhwdHh/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/APcIcvok/rQXcBh9NbhO1oOYwq2oOnqnzQVtJUW57mgN3x6o2aAzDXQQpH6UErit0EC7pPegVVHEjiK4PuaC6NYQGcMDJMRQD6aGCo5YoAUGAmY2aCRibybY+FAy3vJE/mc0DOFabsQMj7UCqGYkHlMfwzQFccQKokdp2PNASLSFgGRnNBNk1cZA3QOZRYRctqDig5wQvUOY9/vQdgNgjlJ87oJ8Rnm3Bj8PugRjrfL1E7oHWX1sZmgW8MY796Ag22A8zDXb7boHS5iZw46G7RQM6w4JK/zKM0EuIAjQFydGgHEYgi03E6NAIkWgcxMu5oNcFQEDI0KCn1GWAGPnXmgnrzkZmgYCGMDP60GJlh2PrH9qBGQF8ye3ugqXKm0ERHegjw+K1/vyKCnEEsVnVxBoBZMuDYRv3QEN6nsKDGYwQMUDkiFFuhQS6ZEMZ6ZoCmSbtR0xOqDXFmHKVXwDugVlNwIa2RvZx9qC6WPvJGCxoN9NUbs48AxQS42DAPksaBeICCt+R48UFA2fwyNnRNAjHkuKyNCgozmFFugIoEM2gqJA87oCpVgc2DutAx7wOUAxQDhxhVOEy9AZW8J0q2180GePqKeQn4+qBWk4uDDxQZ7BExb3oI3m20cyEyp8UHRBEAkN57CgxbhIYK3ewf8AVAhywafRoLWCc3BTiTQR4jNvojp+woHtWOY23DPugwlW5s+Se9Bs+y0GBAoJMPwmCu6CqFihHFKqW0s4/agQcJgbQQQwOBQXUQArRqQpoAwX5AIfXegkn9TlX4n/ABQO7M6xD3HCt2oBYxSJDlTFAbGiDgLonFA7QgHcR1UAmCGOS2GHigW3DlluB7g5oJlNsCSF2tA/DYKRywTppNAWDg5YEr1GgnLHB+JMUC5l1aQBo9qCySEScySQ/gUDNaIUlrpkFRQI05ED3P8A2gFpPLmCY5c0ACorAupIzldzQYGOHaDDbLCgbmPCJA5yOQ+KChys2xGqDTIJ6oXXk0EyOE8XsLwOagVm7zBPx2KBQxw2WA1Hj7UFoAIUuSHyZx+9BoRs5vXME0FLlAEbOhQcxugsdHVAy2wxJA9UAXPRgUFGYQRmaDAALJEFey0ChS/xQxQRUSPp9pj8z3oLAy7KqiUkCfAoCzEOO5Yd6ASvFXF1w7dqDcQqRwjBAyIFBuHBUkDDcsUAfDQQptoFdrCVjl+I8UCyXyd8LfugsrQLvO6BWawizAYTQf/Z)}
 @media (min-width:768px) and (max-width:1040px){
+	.social-buttons{min-height: 50px}
 	.content{width:724px}
 	#globalheader h1{font-size:280%}
 	#header-image{height:440px}
@@ -197,7 +198,7 @@ section.section:nth-child(3n+3){background-color:#3a3e4a}
 	#staff li{width:228px}
 }
 @media (max-width:767px){
-	.social-buttons{min-height: 100px}
+	.social-buttons{min-height: 50px}
 	section.section{padding:1em 0}
 	.content{width:93.75%;word-wrap:break-word;overflow:hidden}
 	#globalheader h1{font-size:200%}
@@ -218,8 +219,12 @@ section.section:nth-child(3n+3){background-color:#3a3e4a}
 	#banner .banner-box img{max-width:100%}
 }
 @media (max-width:480px){
+	.social-buttons{min-height: 50px}
 	#header-image{height:180px}
 	#header-image .header-image-content,#header-image .header-image-mask{height:180px}
 	.btn{width:100%;padding:1em .5em}
 	.alert .btn{width:auto}
+}
+@media (max-width:400px){
+	.social-buttons{min-height: 100px}
 }
