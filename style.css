@@ -82,25 +82,24 @@ h1 a,h2 a,h3 a,h4 a,h5 a,h6 a,h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:h
 #header-image .header-image-content{background-position:center center;background-repeat:no-repeat;background-size:contain;background-color:transparent;height:600px;max-width:1800px;margin:0 auto}
 #header-image .header-image-mask{background:url(./images/header-image-mask.png) repeat-y center center;height:600px;position:absolute;top:0;left:0;width:100%}
 section.section{padding:3em 0}
-section.section:nth-child(3n+1){background-color:#e86779}
-section.section:nth-child(3n+2){background-color:#fff}
-section.section:nth-child(3n+3){background-color:#3a3e4a}
-.section:nth-child(3n+1),.section:nth-child(3n+3){color:#fff;color:rgba(255,255,255)}
-.section:nth-child(3n+1) h1,.section:nth-child(3n+3) h1,.section:nth-child(3n+1) h2,.section:nth-child(3n+3) h2,.section:nth-child(3n+1) h3,.section:nth-child(3n+3) h3,.section:nth-child(3n+1) h4,.section:nth-child(3n+3) h4,.section:nth-child(3n+1) h5,.section:nth-child(3n+3) h5,.section:nth-child(3n+1) a,.section:nth-child(3n+3) a{color:#fff}
-.section:nth-child(3n+1) .list .number,.section:nth-child(3n+1) .list .role{color:#3a3e4a}
-.section:nth-child(3n+1) .list .meta{color:rgba(255,255,255)}
-.section:nth-child(3n+1) .title{color:#fff}
-.section:nth-child(3n+1)#staff .website a{border-color:#fff}
-.section:nth-child(3n+1)#staff .website a:hover{background:#fff;color:#e86779}
-.section:nth-child(3n+2) .table th,.section:nth-child(3n+2) .table td{border-bottom:1px solid rgba(0,0,0,.15)}
-.section:nth-child(3n+2) a{color:#3a3e4a}
-.section:nth-child(3n+2) a:hover{color:rgba(58,62,74,.7)}
-.section:nth-child(3n+3) .title{color:#fff}
-.section:nth-child(3n+3) .list .meta{color:rgba(255,255,255)}
-.section:nth-child(3n+3)#staff .website a{border-color:#fff}
-.section:nth-child(3n+3)#staff .website a:hover{color:#fff!important;border-color:transparent}
-.section:nth-child(3n+3) .btn{background-color:#e86779}
-.section:nth-child(3n+3) .btn:hover{background-color:#c85565}
+.spec.section{color:#fff;color:rgba(255,255,255)}
+.spec.section h1,
+.spec.section h2,
+.spec.section h3,
+.spec.section h4,
+.spec.section h5,
+.spec.section a{color:#fff}
+.spec.section .list .number,.section .list .role{color:#3a3e4a}
+.spec.section .list .meta{color:rgba(255,255,255)}
+.spec.section .title{color:#fff}
+
+/* each specs */
+section.section#magicbook{background-color:#f495b4}
+section.section#foxtory{background-color:#ad7cac}
+section.section#review{background-color:#7ebfb4}
+section.section#kitkat{background-color:#fecd0d}
+section.section#about{background-color:#3a3e4a}
+
 .section h3{margin-top:0;text-transform:uppercase;letter-spacing:.3em;font-size:100%;margin-bottom:1em}
 .content{width:880px;margin-left:auto;margin-right:auto;display:block;*zoom:1}
 .content:after{display:block;visibility:hidden;font-size:0;height:0;clear:both;content:"."}
