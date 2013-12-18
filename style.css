@@ -186,6 +186,7 @@ section.section:nth-child(3n+3){background-color:#3a3e4a}
 	#banner .banner-box img{max-width:100%}
 }
 @media (max-width:480px){
+	.spec_description{display:block;padding-left:1em;}
 	.social-buttons{min-height: 50px}
 	#header-image{height:180px}
 	#header-image .header-image-content,#header-image .header-image-mask{height:180px}
