@@ -11,7 +11,7 @@
 <html lang="ja" prefix="og: http://ogp.me/ns# fb: http://www.facebook.com/2008/fbml">
 <head>
   <meta charset="utf-8">
-  <title>C85特設サイト | TechBooster</title>
+  <title>C85特設サイト 3日目西す24a | TechBooster</title>
   <meta name="viewport" content="width=device-width">
 
   <meta name="description" content="コミックマーケット85にて新刊4冊を頒布予定"/>
@@ -343,22 +343,26 @@
                     <div class="author"><a href="https://twitter.com/amedama">@amedama</a></div>
                   </li>
                   <li>
-                    第7章 仕様書を作ろう
+                    第7章 Sublime Text 2 で ReVIEW を書く
                     <div class="author"><a href="https://twitter.com/yanzm">@yanzm</a></div>
                   </li>
                   <li>
-                    第8章 ReVIEW.js で学ぶ ReVIEW記法のお約束
+                    第8章 仕様書を作ろう
+                    <div class="author"><a href="https://twitter.com/yanzm">@yanzm</a></div>
+                  </li>
+                  <li>
+                    第9章 ReVIEW.js で学ぶ ReVIEW記法のお約束
                     <div class="author"><a href="https://twitter.com/vvakame">@vvakame</a></div>
                   </li>
                   <li>
-                    第9章 同人誌を作ろう
+                    第10章 同人誌を作ろう
                     <div class="author"><a href="https://twitter.com/mhidaka">@mhidaka</a></div>
                   </li>
                   <li>
-                    第10章 同人誌的ReVIEW関連用語開発
+                    第11章 同人誌的ReVIEW関連用語開発
                   </li>
                   <li>
-                    第11章 トラブル集
+                    第12章 トラブル集
                   </li>
                 </ul>
               </td>
@@ -552,7 +556,7 @@
       $("a[href^=#]").click(function(){
         var offset = $(this.hash).offset().top;
         $("html,body").animate({scrollTop: offset}, 500);
-        if(history){
+        if(history.pushState){
           history.pushState(null, null, this.hash);
         }
         return false;
